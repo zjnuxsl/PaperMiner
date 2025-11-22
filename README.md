@@ -1,6 +1,6 @@
 # PaperMiner - 智能论文内容提取工具
 
-基于 MinerU 2.5 构建的 PDF 智能批量处理工具，支持文本、图片、表格、公式的智能提取与多格式输出（Markdown、Excel、Word 等）。
+基于 MinerU 2.5 的智能论文内容提取工具，专为科研工作者设计。支持 PDF 批量处理，智能提取文本、图片（自动识别 Fig.1/Figure 2 等编号）、表格（JPG + Excel 双格式）、公式（图片 + LaTeX）。采用正则表达式 + LLM 双引擎策略智能提取论文章节（Abstract/Introduction/Methods/Results & Discussion/Conclusion），输出为 Markdown 文档，方便构建素材库。
 
 ## 主要特性
 
