@@ -1,0 +1,1425 @@
+[
+    {
+        "type": "text",
+        "text": "Fracture evolution characteristics of asphalt concrete using digital image correlation and acoustic emission techniques ",
+        "text_level": 1,
+        "bbox": [
+            62,
+            206,
+            800,
+            248
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Yingci Ye , Qing Yang \\* , Shanglin Xiao , Xin Qiu , Yixin Xiong , Wenxi Yang ",
+        "bbox": [
+            63,
+            262,
+            655,
+            279
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "College of Engineering, Road and Traffic Engineering Institute, Zhejiang Normal University, Jinhua, Zhejiang 321004, China ",
+        "bbox": [
+            65,
+            288,
+            626,
+            298
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "A R T I C L E I N F O ",
+        "text_level": 1,
+        "bbox": [
+            63,
+            327,
+            193,
+            340
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Keywords:   \nAsphalt concrete   \nFracture characteristics   \nCrack propagation   \nDigital image correlation   \nAcoustic emission   \nCrack tip opening displacement   \nFractal dimension   \nb-value ",
+        "bbox": [
+            60,
+            354,
+            215,
+            450
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "A B S T R A C T ",
+        "text_level": 1,
+        "bbox": [
+            337,
+            329,
+            433,
+            340
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "The cracking damage of asphalt concrete significantly affects the service life of pavement. The objective of this research is to investigate fracture mechanisms of asphalt concrete by employing a synergistic approach combining digital image correlation (DIC) and acoustic emission (AE) techniques under three-point bending tests. Firstly, the crack tip opening displacement (CTOD) and the fracture process zone (FPZ) derived from DIC were utilized to classify fracture stages and describe the entire crack propagation process. Meanwhile, AE-related parameters were applied to detect the internal damage and fracture characteristics. Subsequently, the results from DIC and AE were utilized for comparative analysis to evaluate the cracking resistance of different materials. Finally, the fractal dimension and AE b-value were used to distinguish the characteristics of the critical damage conditions. The results indicated that both techniques are effective in classifying the fracture stage of asphalt concrete. DIC can visualize and analyze crack propagation processes and paths on concrete surfaces, especially at the stage of macrocrack initiation and propagation. AE allows for continuous monitoring and highly sensitive detection of early-stage damage inside concrete. The distinct advantages of DIC and AE result in different fracture stage identification results at the early stage, but consistent after the appearance of macrocracks. Based on the relationship between CTOD and AE cumulative count, a simple approach is proposed to directly evaluate the cracking resistance of different asphalt concretes. The formation of macrocracks in asphalt concrete can be reflected by a shift where the correlation dimension drops steeply to the minimum value, and a minimum inflection point in the AE b-value curve acts as a precursor of complete fracture. The research offers an in-depth insight of both surface deformation and internal damage, thus enhancing the understanding of crack growth behavior and fracture process in asphalt concrete. ",
+        "bbox": [
+            337,
+            354,
+            937,
+            581
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "1. Introduction ",
+        "text_level": 1,
+        "bbox": [
+            62,
+            620,
+            163,
+            631
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Asphalt concrete is widely used in pavement engineering and plays an important role in modern infrastructure. Its composition, primarily a mixture of aggregates and asphalt binder, is designed to endure a variety of stresses from traffic and environmental conditions. Nevertheless, during its service life, asphalt concrete is prone to deterioration due to cracking. These phenomena not only compromise the structural integrity of pavements but also significantly reduce their lifespan, leading to increased maintenance costs and safety concerns. Understanding the mechanisms of crack initiation and propagation in asphalt concrete is crucial for improving its design and extending its service life. ",
+        "bbox": [
+            62,
+            646,
+            485,
+            778
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Traditional mechanical testing methods, including the disk-shaped compact tension (DCT) test, semicircular bend (SCB) test, and fracture toughness test, have been extensively used to explore the correlation between material properties and mechanical behaviors of asphalt concrete [1–3]. Specifically, Meng et al. [4] reviewed that the SCB test can effectively evaluate the crack resistance of asphalt mixtures by adjusting the geometric size and test parameters of the semi-cylindrical sample. This evaluation uses fracture indexes like fracture energy, fracture toughness, stiffness, and flexibility, in addition to observing the crack growth. Additionally, imaging technologies such as computed tomography (CT) and scanning lasers are employed to measure subtle deformations and characterize fractures in asphalt concrete. For instance, Hassan et al. [5] characterized the internal structural damage of asphalt concretes captured on X-ray CT images. Ajideh et al. [6] developed a scanning laser system designed to detect changes in surface properties for the purposes of monitoring damage and characterizing the fatigue behavior of asphalt concretes. While these methods can reflect the trend of crack onset and progression in asphalt concrete, they are inadequate in dynamically perceiving the entire damage process, which constrains their effectiveness in exploring the fracture behavior and mechanisms of concretes. In addition, researchers have employed various numerical simulation techniques, such as boundary element method (BEM), discrete element method (DEM) and finite element method (FEM), to identify crack initiation and propagation [7–11]. Specifically, Elseifi et al. [12] reviewed FEM method of modelling crack initiation and propagation in flexible pavements. Based on this review, a knowledge base has been established on how FEM can be effectively applied to predict pavement performance against cracking failure mechanisms. While these simulation methods are effective in certain scenarios, they may not always provide precise predictions of the fracture process, particularly in more complex or varying conditions. The accuracy of these models can be influenced by factors such as the simulation scale, the material model used, and the complexity of the concrete structure being analyzed. ",
+        "bbox": [
+            60,
+            779,
+            484,
+            803
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            514,
+            620,
+            937,
+            803
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            62,
+            65,
+            485,
+            302
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "To capture the complete damage process dynamically and accurately, DIC has been employed as an effective and versatile tool. It enhances the understanding of fracture behaviors in material structures by offering full-field, non-destructive, and detailed surface measurements of displacement and strain [13–15]. Seo et al. [16] compared the measurements of DIC against conventional linear variable differential transformers (LVDT), and found that DIC provides a more accurate determination of the stress–strain behavior due to its full-field and post-processing characteristics. DIC can offer a deformation map for the surface crack and measure displacement, allowing for the extraction of crack location and detection [17]. Zhu et al. [18] utilized DIC to evaluate crack initiation time, crack propagation rate, and horizontal strain through fatigue and bending fracture tests to study the self-healing properties of open-graded friction course (OGFC) asphalt concrete. Furthermore, DIC accurately measures strain fields in materials, detecting anomalies and damages. Doll et al. [19] employed DIC to estimate the FPZ in SCB specimens of asphalt concrete with a prefabricated notch through three-point bending tests by measuring the strain field around the crack tip. Bhowmik et al. [20] applied DIC to monitor the fracture process of concrete under different loading conditions and proposed a systematic method to understand the characteristics of the FPZ in concrete components. Overall, the ability of DIC to provide detailed information about crack growth and behavior renders it a valuable tool in the study and characterization of material cracks. ",
+        "bbox": [
+            62,
+            303,
+            485,
+            619
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Compared with DIC, which focuses on surface deformation, AE technique offers superior capabilities in detecting internal damage and provides insights into internal processes as a precise and continuous non-destructive testing method. AE signals are the elastic waves propagating from the release of localized internal energy, such as microfractures in concrete. The AE technique, which detects these signals, is highly effective for real-time monitoring of damage progression and localizing fractures, thereby enabling the analysis of damage mechanisms [21–23]. Fundamentally, AE parameters have proven effective in evaluating concrete damage under various conditions [24,25]. Geng et al. [26] observed that the AE energy and ringing counts of concrete during the uniaxial compression test exhibited three distinct stages, which were found to align closely with the primary stages of deformation and failure. Further research based on AE parameters in the context of concrete structures is also emphasized for the analysis and evaluation of concrete failure processes, with the objective of comprehensive discrimination and characterization of the failure process. Typically, Ohtsu et al. [27] and Colombo et al. [28] employed b-value to evaluate the damage severity of concrete structures. Sagar et al. [29] analyzed the amplitude distribution of AE to study fracture propagation in concrete and mortar specimens, and indicated that b-value based on AE provides an effective method for identifying damage in concrete structural components. Additionally, a series of nonlinear theories and models were used to analyze the AE parameters and waveforms. For instance, a proposed methodology, based on the principles of fractal theory, has been put forward to forecast the progression of damage and the duration until structural failure. This methodology establishes a connection between the concepts of fracture mechanics and AE for structures that have been subjected to diffused damage [22]. Qiu et al. [30] conducted computations to determine the box-counting dimensions of different AE parameters, thus illustrating that the fractal dimension can consistently unveil the bending failure attributes of asphalt concrete. Ali et al. [31] indicated that the sudden decrease in the correlation dimension of AE signals enables to predict dynamic failures and microcrack mechanisms in coal and rock. Overall, AE techniques have proven highly effective in detecting and identifying crack initiation, monitoring crack propagation, and characterizing fracture mechanisms for concrete materials. ",
+        "bbox": [
+            62,
+            620,
+            485,
+            935
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            514,
+            66,
+            937,
+            237
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "To comprehensively investigate the cracking behaviors and fracture mechanisms of asphalt concrete, it is crucial to consider both surface deformation and internal damage processes. The combined use of DIC and AE techniques has emerged as a powerful method, providing valuable insights into the initiation, propagation, and failure mechanisms of fractures, making them indispensable tools in material science and engineering research [32–34]. Li et al. [35] explored damage and failure of rubberized self-compacting concrete (RSCC) when subjected to uniaxial tension, employing both AE and DIC methods. Guo et al. [36] examined the fracture behavior of beams made from recycled concrete under three-point bending conditions, through the simultaneous application of DIC and AE methodologies. The combination allows for simultaneous temporal (time-based) monitoring of cracking events (AE) and spatial (location-based) analysis of deformation (DIC), which is significant for understanding the dynamics of fracture processes in concrete. The combined use of DIC and AE has shown promise in the study of materials, but more research is still needed to fully explore its potential. Most existing research focuses on specific types of materials, and it is necessary to understand how the combined use of DIC and AE can be applied to a wider range of materials, particularly asphalt concretes with different viscoelastic properties. Furthermore, while both DIC and AE offer insights into material damage, their relationship is still not fully understood. Further investigation utilizing the correlation between the results of these two techniques studies is needed to respond to the material properties and mechanical characteristics. Therefore, the objective of this study is to comprehensively understand the fracture behaviors and characteristics of three types of asphalt concrete by employing DIC and AE technologies. Furthermore, the study seeks to explore the relationship between surface deformation and internal damage in asphalt concrete. Specifically, this paper aims to: ",
+        "bbox": [
+            514,
+            239,
+            937,
+            633
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "(1) Evaluate the cracking resistance of asphalt concretes by the work of fracture, considering the variations in viscoelastic properties of asphalt material.   \n(2) Identify the damage stages during the fracture process based on the variation of crack tip opening displacement and delineate FPZ and TFZ development to understand the inelastic deformation and nonlinear crack growth.   \n(3) Analyze the temporal evolution characteristics of AE activity to explore the characteristic patterns of concrete damage and cracking behavior through the view of internal damage.   \n(4) Discuss the relationship between surface deformation and internal damage evolution during the fracture process by quantifying the correlation between CTOD and AE parameters, and evaluate the effect of asphalt types on cracking resistance.   \n(5) Explore diagnostic methods to identify critical damage conditions, including the formation of macroscopic cracks and fracture failure, using fractal dimension and b-value analysis. ",
+        "bbox": [
+            529,
+            646,
+            937,
+            870
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "2. Materials and methods ",
+        "text_level": 1,
+        "bbox": [
+            62,
+            66,
+            230,
+            78
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "2.1. Materials preparation ",
+        "text_level": 1,
+        "bbox": [
+            62,
+            93,
+            215,
+            104
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "Three asphalts were selected for this study, including $^ { 7 0 \\# }$ neat asphalt (NA), SBS modified asphalt (SBS), and high viscosity modified asphalt (HVMA). NA and SBS were sampled from Sinopec Zhenhai Refining and Chemical Company (Zhenhai, China). HVMA was produced by blending the SBS modified asphalt with high viscosity modifier produced from Guolu Gaoke Engineering Technology Institute Co., Ltd. (Beijing, China) with a $6 \\%$ concentration (by asphalt weight) and heated at $1 7 5 ~ ^ { \\circ } \\mathrm { C }$ for $6 0 \\ \\mathrm { m i n }$ . The basic characteristics of binder materials, following the Standard Test Methods of Bitumen and Bituminous Mixtures for Highway Engineering (JTG E20–2011), are detailed in Table 1. Specifically, the penetration test, conducted at $2 5 ^ { \\circ } \\mathrm { C }$ , measures the depth a standard needle with a $1 0 0 ~ \\mathrm { g }$ weight penetrates the asphalt sample over 5 seconds, with results recorded in $0 . 1 \\mathrm { \\ m m }$ units. The softening point test, using the Ring-and-Ball method, involves heating the asphalt sample at a controlled rate in a water bath and recording the temperature at which a steel ball sinks through the sample and touches the bottom plate. The ductility test, performed at $5 ^ { \\circ } \\mathrm { C }$ , measures the elongation length of the asphalt sample stretched at a rate of $5 \\mathrm { { c m / m i n } }$ until it breaks, with results recorded in centimeters. ",
+        "bbox": [
+            62,
+            118,
+            485,
+            368
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "The dense gradation of asphalt mixture with a nominal maximum aggregate size of $1 3 ~ \\mathrm { m m }$ was utilized with an asphalt content of $4 . 9 \\%$ . The aggregate gradation curve was determined from the Marshall method and depicted in Fig. 1. Asphalt mixtures slabs measuring $3 0 0 { \\times } 3 0 0 { \\times } 5 0 ~ \\mathrm { m m }$ was prepared using a roller compactor. Beam specimens, cut from these slabs, were $1 3 5 \\mathrm { m m }$ in length, $3 5 \\mathrm { m m }$ in width, and $5 0 \\ \\mathrm { m m }$ in height for fracture tests. Each specimen featured a pre-cut notch with dimensions of2mm in width and $1 0 \\ \\mathrm { m m }$ in depth located at the bottom of mid-span. ",
+        "bbox": [
+            62,
+            369,
+            485,
+            488
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "2.2. Experimental setup ",
+        "text_level": 1,
+        "bbox": [
+            62,
+            506,
+            200,
+            518
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "Three-point bending tests were conducted synchronously using AE and DIC on a servo-hydraulic universal testing machine (UTM-30). Speckle pattern for DIC test and layout of sensors for AE test were illustrated in Fig. 2. Prior to testing, the specimens were maintained at $_ { 0 ^ { \\circ } \\mathrm { C } }$ for $^ { 2 \\mathrm { ~ h ~ } }$ to ensure stable temperature conditions. Then the tests were carried out at a loading rate of $3 \\mathrm { m m / m i n }$ . For each experimental condition, three replicates were conducted, and a representative outcome was selected for detailed analysis. ",
+        "bbox": [
+            62,
+            533,
+            485,
+            638
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "MISTRAS’s Micro II Express 8 AE-system was used in the study. The selected AE sensor model, R3a, has a frequency range of $2 0 \\mathrm { k H z }$ to $1 8 0 ~ \\mathrm { k H z }$ . A preamplifier gain of $4 0 \\mathrm { d B }$ was configured, and a fixed threshold value of 33 dB was set. For data collection, a total of six AE sensors were affixed to the surface of the asphalt concrete specimens with coupling agent and secured with electrical tape. ",
+        "bbox": [
+            62,
+            639,
+            485,
+            717
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "During the three-point bending tests, the DIC system utilized two high-precision cameras to sequentially capture frames. These cameras featured with notable specifications, including a 50-megapixel resolution, less than 0.01 pixels sub-pixel displacement measurement accuracy, and swift 75fps frame rate, ensured high-quality data capture. A consistent data acquisition rate of 10 frames per second was maintained. The lighting system, consisting of two blue lights, was adjusted to suit the morphology and dimension of each test specimen. To ensure the accuracy of deformation measurement and analysis, the specimens were prepped with artificial speckle pattern. This involved applying a thin coat of matte white paint, followed by random black speckles, creating a randomized speckle pattern on the specimen’s surface. The testing commenced with the simultaneous activation of the loading system, image acquisition system, and AE acquisition system. These systems collaboratively executed measurements of full-field displacements, displacement rates, strains, strain rates, and AE signals of the asphalt concrete on the specimen’s surface until complete fracture and failure was reached. ",
+        "bbox": [
+            62,
+            717,
+            485,
+            836
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "table",
+        "img_path": "images/834fe0ad9d49ddb5de4cc131edbe2ad5b158d9151fea48c163c423c99961e376.jpg",
+        "table_caption": [
+            "Table1 Basic properties of asphalt binders. "
+        ],
+        "table_footnote": [],
+        "table_body": "<table><tr><td>Materials</td><td>Penetration,0.1 mm</td><td>Softening point,C</td><td>Ductility, cm</td></tr><tr><td>NA</td><td>68.2</td><td>50.4</td><td>一</td></tr><tr><td>SBS</td><td>57.7</td><td>77.0</td><td>33.5</td></tr><tr><td>HVMA</td><td>48.3</td><td>108.4</td><td>37.9</td></tr></table>",
+        "bbox": [
+            57,
+            877,
+            484,
+            935
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "image",
+        "img_path": "images/c25f21c923e20d6146ffc4a0ce0b10d6b3cd3c0642fe50456c79c898d1d548ec.jpg",
+        "image_caption": [
+            "Fig. 1. Aggregate gradation curve of AC-13. "
+        ],
+        "image_footnote": [],
+        "bbox": [
+            522,
+            68,
+            929,
+            287
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            514,
+            325,
+            937,
+            442
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "2.3. Crack tip opening displacement ",
+        "text_level": 1,
+        "bbox": [
+            514,
+            460,
+            721,
+            471
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "CTOD is a parameter in fracture mechanics that measures the opening displacement of a defect at the crack front during the loading of test specimens or structures [37], as shown in Fig. 3. It is a critical indicator of crack driving forces and is widely used in the field of civil engineering. CTOD at a specified distance from the crack tip has been proven to be one of the most suitable indicators for simulating stable crack extension and instability during the fracture process [38–41]. Therefore, CTOD can be utilized to identify the stages of damage and cracking in asphalt concrete [37]. ",
+        "bbox": [
+            514,
+            485,
+            937,
+            604
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "2.4. Fracture process zone ",
+        "text_level": 1,
+        "bbox": [
+            514,
+            620,
+            667,
+            631
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "In fracture mechanics, FPZ is a plastic region situated at the tip of material cracks, as shown in Fig. 3. It forms as the local stress near the pre-crack tip gradually approaches and surpasses the material’s tensile strength. According to Wu et al. [42], the FPZ is identified as the region where strain exceeds a certain threshold. As the load nears its peak, the FPZ fully develops, and the crack opening displacement at the notch tip reaches a critical value, $w _ { c }$ , forming a traction-free crack (i.e., a cohesive-less crack) above the notch. After the peak, a TFZ forms at the notch tip, with the traction-free crack extending and the FPZ developing upwards while maintaining a constant length. As the macroscopic crack forms and propagates, the flexural strength decreases. ",
+        "bbox": [
+            514,
+            646,
+            937,
+            790
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "2.5. Correlation dimension ",
+        "text_level": 1,
+        "bbox": [
+            514,
+            805,
+            668,
+            818
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "Concrete fracture failure represents a non-linear and continuous progression, evolving from microcracks to macrocracks, shifting from random damage to concentrated damage, and transitioning from a disordered to an ordered state. The correlation dimension analysis of AE signals effectively captures this evolutionary process, providing insights into the changes in the material’s internal structural behavior [43]. In this study, the correlation dimension $D$ is defined by Eq. (1), according to the Grassberger-Procaccia (G-P) algorithm. ",
+        "bbox": [
+            514,
+            832,
+            937,
+            936
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "image",
+        "img_path": "images/6a86a06909db8d4640cc6a1f723b8c449c4ac75011fcda5fec97cb4424b5ccad.jpg",
+        "image_caption": [
+            "Fig. 2. Schematic diagram of AE sensors position and speckle area (unit: mm). "
+        ],
+        "image_footnote": [],
+        "bbox": [
+            193,
+            68,
+            805,
+            322
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "image",
+        "img_path": "images/1d9ef4458ed531fa00cad5d2809db26aeb8cd5b242b625f5fb1b6f422795e140.jpg",
+        "image_caption": [
+            "Fig. 3. Schematic diagram of CTOD. "
+        ],
+        "image_footnote": [],
+        "bbox": [
+            151,
+            368,
+            391,
+            625
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "equation",
+        "img_path": "images/6884a7062f69d2bf720677a6c1d00e9de27829d109e38241835da6b9ba9478ba.jpg",
+        "text": "$$\nD = \\operatorname* { l i m } _ { m \\to \\infty } d ( m )\n$$",
+        "text_format": "latex",
+        "bbox": [
+            58,
+            662,
+            141,
+            680
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "where $d ( m )$ represents the estimated correlation exponent or scaling exponent for a given embedding dimension $m$ . ",
+        "bbox": [
+            60,
+            692,
+            485,
+            717
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "The correlation dimension, calculated using the G-P algorithm, could provide comprehensive insights into the health of concrete structures due to its sensitivity, robustness, and other advantages. Specifically, its sensitivity to changes in system dynamics allows for the early detection of critical damage during the deterioration of concrete structures. This sensitivity is particularly effective in capturing the nonlinear complexities of concrete damage processes, where traditional linear methods fall short. Additionally, the algorithm’s robustness to noise ensures reliable analysis in monitoring environments with typical data imperfections. Importantly, the correlation dimension offers a quantitative method for assessing structural complexity, facilitating objective evaluations of damage severity. ",
+        "bbox": [
+            62,
+            718,
+            485,
+            876
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "2.6. AE $^ { b }$ -value ",
+        "text_level": 1,
+        "bbox": [
+            62,
+            899,
+            154,
+            910
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "Originally derived from seismology, AE b-value is an important metric for discerning transitions in material damage states within fracture mechanics. In fact, the AE b-value analysis is an application of catastrophe theory principles in the field of material damage assessment. Catastrophe theory is a mathematical framework used to model and explain sudden changes or discontinuities in the behavior of complex systems, provides a way to understand how small, continuous changes in input parameters can lead to abrupt, dramatic shifts in a system ’s output or state. Consequently, b-value typically exhibits systematic variations across various phases of the failure process, making it a valuable tool for evaluating the extent of material damage. Specifically, b-value serves as a key indicator of the relationship between the magnitude and the tot al number of AE events within a given region and time interval. The cumulative relationship between the frequency and the magnitude of AE signals can be quantified using the empirical formula proposed by Gutenberg and Richter: ",
+        "bbox": [
+            80,
+            925,
+            485,
+            938
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            514,
+            360,
+            937,
+            556
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "equation",
+        "img_path": "images/736df6f192c6c3ccaa52fb8dd3f83fd5aa31619f476d2ea961ecf39eafa44296.jpg",
+        "text": "$$\n\\log N = a - b M\n$$",
+        "text_format": "latex",
+        "bbox": [
+            510,
+            563,
+            603,
+            577
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "where $M$ is the magnitude, $N$ represents the number of earthquakes within the range from $M$ to $M \\mathrm { + } \\Delta M$ , and $a$ and $^ { b }$ are constants. The bvalue represents the ratio of small-magnitude events to large-magnitude earthquake events, while the a-value measures the regional seismic activity level. In the calculation of the AE b-value, $M$ is often converted using the amplitude $A _ { d B }$ , as shown in Eq. (3): ",
+        "bbox": [
+            514,
+            588,
+            937,
+            667
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "equation",
+        "img_path": "images/a07184b1352d343dc474be872412283918d311ba1c16aaffda72069427254b68.jpg",
+        "text": "$$\nM = \\frac { A _ { d B } } { 2 0 }\n$$",
+        "text_format": "latex",
+        "bbox": [
+            510,
+            674,
+            566,
+            699
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "The b-value in this research was determined using Maximum Likelihood Estimation (MLE), an effective statistical method in AE studies for accurately estimating the b-value, crucial for analyzing the relationship between the magnitude and frequency of AE events [44]. ",
+        "bbox": [
+            512,
+            706,
+            936,
+            757
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "3. Results and discussion ",
+        "text_level": 1,
+        "bbox": [
+            514,
+            771,
+            678,
+            783
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "3.1. Cracking resistance of asphalt concretes ",
+        "text_level": 1,
+        "bbox": [
+            515,
+            798,
+            769,
+            809
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "It is necessary to determine the difference in cracking resistance of asphalt concrete, considering the variations in viscoelastic properties of asphalt material. The work of fracture $\\left( \\mathsf { W } _ { \\mathrm { f } } \\right)$ is critical in describing the ability to resist crack initiation and propagation [45]. It is calculated by dividing the total work done (i.e., the area under the load-displacement curve) by the fractured area, as shown in Fig. 4. ",
+        "bbox": [
+            514,
+            824,
+            937,
+            902
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "The Wf of NA concrete was quantified at $1 . 7 7 5 \\mathrm { k N } { \\cdot } \\mathrm { m m }$ , accompanied by a peak load of $2 . 8 8 \\mathrm { k N }$ . The corresponding load-displacement curve was characterized by a pronounced initial slope, indicative of considerable stiffness, and a subsequent precipitous decline, implying a deficiency in ductility, or a limited capacity for plastic deformation prior to fracture. In contrast to NA concrete, SBS concrete demonstrated a superior $\\mathsf { W } _ { \\mathrm { f } }$ of $2 . 7 7 \\mathrm { k N } { \\cdot } \\mathrm { m m }$ . It also exhibited an augmented peak load of $3 . 0 2 \\mathrm { k N }$ and a more extensive area under the load-displacement curve before the onset of decline, denoting an enhanced ability to absorb energy prior to failure and improved resistance to crack propagation relative to NA concrete. HVMA concrete exhibited the most substantial $\\mathrm { W _ { f } } ,$ recorded at $3 . 1 1 4 \\mathrm { k N } { \\cdot } \\mathrm { m m }$ , with a peak load of $3 . 4 2 \\mathrm { k N }$ . The loaddisplacement curve for HVMA concrete extended over a broader displacement range before descending, signifying a superior energy absorption capacity and cracking resistance. ",
+        "bbox": [
+            512,
+            904,
+            937,
+            929
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "image",
+        "img_path": "images/00388ca2f039558b11a35b07f380a28d6e467c18eedd816b5bcb85cd08b3f3be.jpg",
+        "image_caption": [
+            "Fig. 4. Load-displacement curve and work of fracture. "
+        ],
+        "image_footnote": [],
+        "bbox": [
+            121,
+            68,
+            425,
+            247
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            62,
+            284,
+            485,
+            455
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "3.2. Fracture stages and characteristics ",
+        "text_level": 1,
+        "bbox": [
+            62,
+            476,
+            287,
+            488
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "3.2.1. Stage variation characteristic of DIC ",
+        "text_level": 1,
+        "bbox": [
+            62,
+            503,
+            310,
+            514
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "According to method of Xue et al. [37], the fracture process of asphalt concrete under three-point bending can be categorized into three distinct stages, as illustrated in Fig. 5. ",
+        "bbox": [
+            60,
+            517,
+            484,
+            554
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "Initially, in Stage 1, crack openings are minimal, with the NA, SBS, and HVMA specimens exhibiting low crack opening rates $( 1 . 2 2 \\mu \\mathrm { m } / s ,$ $1 . 3 0 \\mu \\mathrm { m } / s$ , and $1 . 4 2 \\mu \\mathrm { m } / s$ , respectively), representing slow expansion of pre-existing cracks with few new microcracks on the specimen surface. As the load increases, the transition to Stage 2 occurs, characterized by a notable rise in the average CTOD change rate (around $2 0 \\mu \\mathrm { m } / \\epsilon )$ compared to Stage 1, indicating accelerated damage expansion. This stage is marked by both an increase in the number and size of microcracks. Finally, Stage 3 commences following the peak load, where CTOD change rates exceed $9 0 \\mu \\mathrm { m } / s$ , indicative of rapid macroscopic crack expansion and a subsequent decrease in load. This stage is marked by a nearly linear growth in crack size. Understanding these stages is essential for predicting and assessing the failure behavior of asphalt concrete structures under real loading conditions. ",
+        "bbox": [
+            62,
+            556,
+            485,
+            738
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "DIC technique revealed progressive developments of the FPZ and TFZ at distinct moments: $4 0 ~ \\%$ before pre-peak, peak, $6 0 \\%$ post-peak, and $4 0 ~ \\%$ post-peak, Each corresponding to different damage stages. Figs. 6–8 (A) and (B) illustrate the displacement and strain fields at these stages, while Figs. 6–8 (C) demonstrates the gradual evolution of the FPZ and the TFZ, color-coded as yellow and blue, respectively. Compared to displacement fields, strain fields provide a more intuitive visualization of discontinuous deformation, thus offering clearer insights into the crack propagation. To determine the expansion characteristics of the TFZ or the actual crack path, displacements were measured at various load levels along two vertical reference lines, located $8 \\mathrm { m m }$ from the centerline of the precut notch, as shown in Figs. 6–8 (A). The critical crack opening displacement (COD), denoted as $w _ { c }$ , was determined at the peak load, and it signifies the transition point between the FPZ and TFZ. ",
+        "bbox": [
+            62,
+            740,
+            485,
+            935
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "image",
+        "img_path": "images/1912ffd2a1cbf6804d96784071dea97b03a7c102d644ed84f6fcdb39d6c76781.jpg",
+        "image_caption": [
+            "Fig. 5. Evolution of CTOD and loading curve throughout loading process. "
+        ],
+        "image_footnote": [],
+        "bbox": [
+            571,
+            65,
+            878,
+            569
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "At the initial loading stage, localized discontinuous deformation was observed above the tip of the pre-cut notch when the load reached $4 0 \\%$ of the peak, indicating the initial of FPZ development. As the load increased, microcracks gradually formed, leading to a continuous growth in the length of the FPZ. Upon reaching the peak load, the opening displacement at the notch tip reached the critical value $w _ { c }$ , signifying a fully developed FPZ. The fully developed FPZ lengths for NA, SBS, and HVMA concretes were approximately $7 . 3 6 4 ~ \\mathrm { m m }$ , $9 . 4 3 7 \\mathrm { m m }$ , and $1 4 . 0 7 9 \\mathrm { m m }$ , respectively, as shown in Figs. 6–8 (2). According to the displacement curve data in Figs. 6–8 (C-2), the critical COD at peak load for different materials were $7 7 . 9 2 8 \\mu \\mathrm { m }$ , $9 9 . 8 9 6 \\mu \\mathrm { m }$ , and $1 1 9 . 8 5 8 \\mu \\mathrm { m }$ , respectively. Combined with the results presented in Section 3.1, concretes with better cracking resistance tend to have larger fully developed FPZ lengths and higher critical COD. This suggests a strong correlation between the viscoelastic properties of asphalt materials and both the FPZ length and critical COD. This inference is consistent with the conclusion by Doll et al. [19] that material embrittlement occurs concurrently with a decrease in the size of the FPZ. It is commonly believed that the size of the FPZ influences the material’s fracture toughness. A larger FPZ allows the material to absorb more energy before fracturing, thereby exhibiting higher fracture toughness. Consequently, SBS concrete and HVMA concrete demonstrate superior cracking resistance compared to the NA concrete. ",
+        "bbox": [
+            514,
+            607,
+            937,
+            910
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "When the load enters the post-peak stage, the FPZ tip advances while the TFZ forms and propagates along the macroscopic crack expansion path. Notably, the crack propagation path, as shown in Figs. 6 and 7 (B) and (C), does not strictly follow the direction of maximum principal stress. Instead, the crack propagation often exhibits a serrated pattern due to the heterogeneity of the concrete. Throughout the crack propagation, the FPZ length remains relatively constant. Specifically, for NA specimen, the FPZ length is $7 . 0 7 0 \\mathrm { m m }$ at $6 0 \\%$ post-peak load and $7 . 2 3 0 \\ : \\mathrm { m m }$ at $4 0 \\%$ post-peak. For SBS and HVMA concretes, the FPZ lengths are $9 . 3 9 5 \\ : \\mathrm { m m }$ and $9 . 3 8 2 \\ : \\mathrm { m m }$ at $6 0 \\%$ post-peak load, and $1 4 . 1 0 2 \\mathrm { m m }$ and $1 4 . 0 5 9 \\mathrm { m m }$ at $4 0 ~ \\%$ post-peak load, respectively. ",
+        "bbox": [
+            532,
+            911,
+            937,
+            924
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "image",
+        "img_path": "images/de66cfb762ae815cb82dc912aed16ec1cf2481fc35ab101f411db6fe62b1198c.jpg",
+        "image_caption": [
+            "Fig. 6. Analysis of the FPZ and TFZ in concrete sample with NA concrete under different fracture stages. "
+        ],
+        "image_footnote": [],
+        "bbox": [
+            62,
+            63,
+            929,
+            738
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            62,
+            767,
+            485,
+            899
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "3.2.2. Temporal evolution characteristics with AE parameters ",
+        "text_level": 1,
+        "bbox": [
+            514,
+            767,
+            863,
+            780
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "While DIC provides detailed information about the initiation and propagation of surface cracks, which helps to understand the fracture mechanisms in concrete, it is essential to consider the internal damage progression of asphalt concrete, particularly the early damage before surface cracking occurs. Therefore, a comprehensive analysis of AE parameters was performed to explore the characteristic patterns of concrete internal cracking behaviors at various development stages. Figs. 9–11 present a comparative analysis of the temporal evolution of AE parameters for three different materials over time. It was observed that counts, cumulative count, energy, and cumulative energy exhibit distinct stage-specific characteristics for each material. Notably, a sudden increase in these parameters tend to occur simultaneous for a given material, suggesting transitions in the damage process. The damage process is preliminarily categorized into four stages based on three simultaneous abrupt changes: specimen deformation (Stage I), microcrack initiation and concentration (Stage II), macroscopic crack formation and stable expansion (Stage III), and macroscopic crack unstable expansion (Stage IV). The damage behavior of each stage inferred from the AE parameters is detailed as follows. ",
+        "bbox": [
+            514,
+            781,
+            937,
+            925
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "image",
+        "img_path": "images/06fa1996d90c4154af2497155788ac2fd32e3d25cd93ec0d2a68a1421ee94279.jpg",
+        "image_caption": [
+            "Fig. 7. Analysis of the FPZ and TFZ in concrete sample with SBS concrete under different fracture stages. "
+        ],
+        "image_footnote": [],
+        "bbox": [
+            62,
+            63,
+            929,
+            738
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            62,
+            769,
+            484,
+            873
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "In Stage I, following a 6 second preloading period, the loading curve exhibits a brief period of linear growth. During this phase, AE count and energy values remain relatively low, while a gradual increase is noted in cumulative count and energy. This suggests that the internal structure of asphalt concrete specimen undergoing a self-adjustment process. At lower load levels, initial voids within the specimen may close, and the contact or friction between rough surfaces could result in weak AE activity. ",
+        "bbox": [
+            60,
+            873,
+            484,
+            926
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            514,
+            769,
+            937,
+            820
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "Upon entering Stage II of concrete damage evolution, the AE activity in asphalt concrete becomes more pronounced, as evidenced by a moderate rise in both cumulative count and energy. This phenomenon is largely attributed to the random initiation of microcracks and the initial formation of damage zones due to stress concentration. The continuous increase in cumulative AE parameters suggests that microcracks are accumulating and expanding during this stage. By the end of this stage, macroscopic cracks have emerged within the specimen. As the escalation of load levels, there is a noticeable reduction in the frequency of AE events, leading to sparse areas in the time distribution of AE count and energy. A similar phenomenon was observed in the study of Qiu et al. [46]. ",
+        "bbox": [
+            514,
+            822,
+            937,
+            926
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "image",
+        "img_path": "images/f86329a4a5d163aa30155f0e735b97e319861ea7bda47d032c1d40dd05570121.jpg",
+        "image_caption": [
+            "Fig. 8. Analysis of the FPZ and TFZ in concrete sample with HVMA concrete under different fracture stages. "
+        ],
+        "image_footnote": [],
+        "bbox": [
+            62,
+            63,
+            929,
+            738
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            60,
+            769,
+            484,
+            820
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "This reduction signifies the transition of concrete damage evolution into Stage III. In this phase, although the overall number of AE events diminishes significantly, each event is characterized by increased count and energy levels. This suggests that at this stage, instances of crack formation or expansion are frequently linked with significant energy release, reflecting a transition in the specimen’s damage state from microscopic to macroscopic cracking. Furthermore, after the peak load is reached, a linear decline in the loading curve is observed, especially evident in the NA specimen. Following the linear decline, the damage evolution advances into Stage IV. In this stage, AE activity significantly decreases in both count and energy, returning to levels similar to Stage II. This reduction in AE activity corresponds with the expansion of macroscopic cracks. Simultaneously, the growth of cumulative AE energy and count levels off, suggesting a stabilization phase in the damage progression. Cracks and defects within concrete significantly impact its mechanical properties. The AE process in loaded concrete is governed by its internal structure and changes therein. Additionally, AE signals provide extensive information about internal structural changes. A detailed analysis of cumulative AE energy, amplitude, and count rate effectively characterizes the dynamic damage process of asphalt concrete, categorizing it into four distinct stages. Abrupt simultaneous changes in AE parameters serve as criteria for assessing transitions in asphalt concrete damage behavior. Therefore, it is reasonable to evaluate the fracture performance of asphalt concrete based on the critical points between these damage stages. ",
+        "bbox": [
+            62,
+            822,
+            485,
+            926
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            514,
+            769,
+            937,
+            926
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "image",
+        "img_path": "images/80c5f4f52192e4abc605f69b5cd90301d4bf32293138f20f5cd9931cdffa2f4d.jpg",
+        "image_caption": [
+            "Fig. 9. Temporal evolutions of the load and AE characteristics of NA concrete. "
+        ],
+        "image_footnote": [],
+        "bbox": [
+            90,
+            68,
+            909,
+            244
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "image",
+        "img_path": "images/0aa3df5af32b0604d663a08c898204a5586c7d44a8abf0b967fdb1a6547b4ef7.jpg",
+        "image_caption": [
+            "Fig. 10. Temporal evolutions of the load and AE characteristics of SBS concrete. "
+        ],
+        "image_footnote": [],
+        "bbox": [
+            92,
+            287,
+            907,
+            466
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "image",
+        "img_path": "images/d305719a85007d675af354f17ecbe3350dac488e3022ea3b74879414e441eb5b.jpg",
+        "image_caption": [
+            "Fig. 11. Temporal evolutions of the load and AE characteristics of HVMA concrete. "
+        ],
+        "image_footnote": [],
+        "bbox": [
+            90,
+            510,
+            907,
+            689
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            62,
+            726,
+            484,
+            791
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "Based on the previous discussion about the damage progress monitored by DIC and AE techniques, a comparative analysis for identifying different cracking stages in asphalt concrete was conducted in this study. It found that DIC effectively tracks surface crack growth, aligning its stages 2 and 3 with AE’s stages III and IV. AE excels in early damage detection, identifying minor internal defects before they are visible, placing its initial stages I to stage II within DIC’s stage 1. This shows that early-stage damage detected by AE often corresponds to DIC’s stage 1, demonstrating a significant overlap in their early damage detection capabilities. As damage progresses, both methods show a high level of agreement, with both internal stress and surface changes being closely monitored, leading to consistent detection of later-stage damage. ",
+        "bbox": [
+            62,
+            793,
+            485,
+            936
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            514,
+            726,
+            900,
+            738
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "3.2.3. Comparative analysis of DIC and AE ",
+        "text_level": 1,
+        "bbox": [
+            514,
+            752,
+            766,
+            765
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "In order to better explore and quantify the correlation between surface crack propagation and AE events, both CTOD and the cumulative count of AE data were normalized to their respective maximum values. A strong correlation is observed between these two normalized parameters, as shown in Fig. 12. ",
+        "bbox": [
+            512,
+            766,
+            937,
+            831
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "In contrast to the typical linear or quasi-linear correlation between crack propagation and cumulative count observed in elastic materials, such as rocks and alloys [47–49], the relationship between normalized CTOD and normalized cumulative count in asphalt concrete, which exhibits elastic and viscous properties, can be delineated into three distinct phases. Initially, prior to the peak load $\\mathrm { ( F _ { m a x } ) }$ , there is a marked increase in the normalized cumulative count alongside a rise in normalized CTOD, suggesting a linear and positive correlation. This pattern implies that substantial internal structural changes and damages have occurred before visible cracks appear on the specimen’s surface, highlighting the advanced capability of AE technique for early damage detection, particularly for internal damages. Upon reaching the $\\operatorname { F } _ { \\mathrm { m a x } } ,$ the curve shifts to a nonlinear growth phase, where the rate of increase in AE events no longer directly correlate with the crack growth rate. This shift in the crack growth mode, possibly due to the coalescence of multiple microcracks into larger cracks, may account for the observed deceleration in growth rate. In the terminal phase, the normalized cumulative count plateaus near a normalized value of 1.0, while the normalized cumulative count growth rate approaches zero, thereby forming a horizontal asymptote. This indicates that the crack has traversed the majority of the material, and the diminishing generation of AE events may signify that the crack is nearing complete fracture. As elasticity increases, the curves demonstrate a more pronounced deviation from the initial linear correlation between CTOD and cumulative count, with the SBS and HVMA concretes showing a distinctly nonlinear behavior, especially after the peak load. ",
+        "bbox": [
+            514,
+            832,
+            937,
+            936
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "image",
+        "img_path": "images/6d47b5144d73e50412e178196b4fc38043440f6e3a95c80e44f99bdd75aabb62.jpg",
+        "image_caption": [
+            "Fig. 12. Crack extension in relation to the cumulative count. "
+        ],
+        "image_footnote": [],
+        "bbox": [
+            121,
+            66,
+            426,
+            267
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            62,
+            305,
+            485,
+            540
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "The three distinct phases of correlation curve may provide a framework for assessing the cracking resistance of different materials. The ability of asphalt concrete to withstand cracking can be inferred from the values of normalized cumulative count at $\\operatorname { F } _ { \\mathrm { m a x } } ,$ which marks the end of the linear phase, and the normalized CTOD measurements at the end of the non-linear phase. Materials with higher normalized cumulative counts at a given normalized CTOD value generally exhibit better cracking resistance because higher AE counts indicate more energy is being absorbed by the materials before failure. As shown in Fig. 12, despite similar normalized CTOD values at $\\operatorname { F } _ { \\mathrm { m a x } } ,$ three concretes show varying normalized cumulative counts. The HVMA concrete, with the best cracking resistance, has the highest normalized cumulative count, followed by SBS concrete, while NA concrete has the lowest. Furthermore, at a specific normalized cumulative count value, a lower normalized CTOD value implies stronger cracking resistance. As the normalized cumulative count approaches the horizontal asymptote at the end of the non-linear stage, the corresponding normalized CTOD reflects the concrete’s cracking resistance. As depicted in Fig. 12, the HVMA concrete, with the best cracking resistance, has the smallest normalized CTOD, followed by SBS concrete, while the NA records the largest. These findings suggest that increased normalized cumulative count at $\\operatorname { F } _ { \\mathrm { m a x } }$ and decreased normalized CTOD at the end of the nonlinear stage are reliable indicators of asphalt concrete’s cracking resistance. ",
+        "bbox": [
+            62,
+            542,
+            485,
+            857
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "3.3. Identification of critical damage state ",
+        "text_level": 1,
+        "bbox": [
+            63,
+            872,
+            302,
+            885
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "As the loading process advances, the changing patterns of AE parameters periodically disclose the onset and development of initial damages in the specimen. Studying the transition of damage states and the characteristics of damage evolution in asphalt concrete is essential for comprehending its fracture behaviors and assessing its resistance to cracking. The correlation dimension is used to quantify the complexity of the AE signal, which can provide insights into the fracture stages of the samples [50]. The correlation dimension D calculated from the AE count rate, as depicted in Fig. 13, reflects the alterations in three types of asphalt concrete along the load-time curve. ",
+        "bbox": [
+            60,
+            899,
+            484,
+            936
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            514,
+            66,
+            937,
+            157
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "During the initial loading phase, a rising trend was observed in the correlation dimension D for all three materials. Notably, there was a significant reduction in the correlation dimension D observed prior to reaching $\\operatorname { F } _ { \\mathrm { m a x } } .$ . This reduction, characterized by a swift decline in the correlation dimension D to a lower level, occurred at distinct load percentages for each material: $6 2 \\%$ of $\\operatorname { F } _ { \\mathrm { m a x } }$ for NA concrete, $9 2 ~ \\%$ of $\\operatorname { F } _ { \\mathrm { m a x } }$ for SBS concrete, and $9 6 \\%$ of $\\operatorname { F } _ { \\operatorname* { m a x } }$ for HAMA concrete. Following this phase, the correlation dimension D exhibited a recovery of varying extents, subsequently transitioning into a phase characterized by unpredictable or oscillatory fluctuations. ",
+        "bbox": [
+            514,
+            158,
+            937,
+            237
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "image",
+        "img_path": "images/b59d89586e9fccaecba81651f66db39f1d3b1522469cdc2e72cd9cd793ac5e48.jpg",
+        "image_caption": [
+            "Fig. 13. Correlation dimension D versus time. "
+        ],
+        "image_footnote": [],
+        "bbox": [
+            524,
+            255,
+            929,
+            920
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            60,
+            65,
+            484,
+            117
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "The fracture failure of asphalt concrete can generally be interpreted as a progressive transformation. This progression transitions from a state of disorder to order. Correspondingly, this is mirrored in the evolution of AE that is linked with the deformation and material damage failure. It is generally considered that a decrease in the correlation dimension signifies an increase in the orderliness of the AE process. This transition from a random to an ordered state is externally manifested during the testing process through the observation of microcracks, concentration of fissures, and formation of microcrack zones. The damage phases delineated by the AE parameters (Figs. 9–11) and the changes in the correlation dimension showed good correlation. The stage I and stage II, defined based on AE parameters, correspond to the specimen deformation phase and the microcrack nucleation and concentration phase, respectively. During Stage I, the initial voids within the specimen close, and some rough surfaces make contact or rub against each other, generating AE signals. In Stage II, the random formation of microcracks within the specimen results in the release of more AE signals. The generation of these two types of AE signals is random and lacks a clear pattern, thereby increasing the disorderliness of the failure forms. Consequently, the correlation dimension D experienced varying degrees of increase during these two phases. As the internal damage of the specimen progressed, there was a notable decrease in the correlation dimension D, signifying a more orderly internal damage pattern at this stage, potentially suggestive of macrocrack formation. This shift implies that the damage was predominantly extending and expanding on a larger scale. Notably, the moments of the rapid decline in the correlation dimension D appear to correlate with the cracking resistance characteristics of asphalt concrete. Improved cracking resistance results in the point of rapid decline being closer to $\\operatorname { F } _ { \\operatorname* { m a x } }$ . Therefore, the viscoelastic properties of the asphalt material play a significant role in asphalt cracking resistance. ",
+        "bbox": [
+            62,
+            119,
+            485,
+            528
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "As macrocracks propagate, the specimen rapidly loses its post-peak bearing capacity, ultimately leading to fracture. During this process, the correlation dimension D entered a fluctuating state, highlighting the complexity of the damage evolution process during this stage. The existence of larger aggregates impedes the direct upward propagation of cracks within the specimen to. During loading, the interaction or friction between defects from microcracks in the FPZ and gaps from macrocracks in the FTZ generates AE signals. These signals exhibit a high degree of disordered. Conversely, the continuous expansion and propagation of macrocracks, which yield more orderly AE signals, coexist with this disorder. Together, they shape the fluctuation pattern of correlation dimension D. ",
+        "bbox": [
+            62,
+            528,
+            485,
+            684
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "The analysis presented herein demonstrates that correlation dimension derived from AE count rate can effectively characterizes the critical fracture state during the internal crack progression in asphalt concrete. This method provides a quantitative assessment of the degree of disorder in the crack patterns, which is indicative of the material’s progression towards failure. ",
+        "bbox": [
+            62,
+            687,
+            485,
+            764
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "Furthermore, the AE b-value, calculated from AE signal amplitude distributions, was utilized to assess the intensity of AE activity during the entire fracture process of asphalt concretes. Generally, the regular variation of the b-value across different stages of failure can serve as an indicator of material damage severity. A higher b-value corresponds to smaller amplitude impacts, which suggests a gradual initiation of cracks and a slower rate of propagation. On the other hand, a decrease in the bvalue implies a relative increase in larger amplitude AE impacts. This is indicative of faster and more unstable crack propagation, suggesting more severe material damage. Fig. 14 illustrates the variation in AE amplitude and b-values for NA concrete, SBS concrete, and HVMA concrete throughout the damage process. ",
+        "bbox": [
+            62,
+            765,
+            485,
+            923
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "This study analyzes the intensity variation of AE activity throughout the entire damage process of these three materials, using b-value calculated from the distribution of AE amplitude. The results indicate that the b-value curves for all three materials follow a similar ’S’ shaped pattern. Initially, there is a rapid decline in b-value, which then slows until reaching a minimum. Subsequently, the b-value experiences a period of fluctuating ascent. After reaching its peak, the b-value declines again. ",
+        "bbox": [
+            80,
+            924,
+            485,
+            936
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "image",
+        "img_path": "images/d5dcef8267952d2f120b9828aebc4c4717644db381934afa86494435d9ae7c1b.jpg",
+        "image_caption": [
+            "Fig. 14. AE b-value versus time. "
+        ],
+        "image_footnote": [],
+        "bbox": [
+            534,
+            69,
+            926,
+            707
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            514,
+            744,
+            937,
+            836
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "The b-value continuously decreases during the stage in which damage begins to occur, i.e., stages II and III. The rate of decline was significantly higher in stage II than in stage III. Generally, the inflection point in the b-value curve’s rate of decrease is observed during the transition from Stage II to Stage III. This could be attributed to an accelerated rate of microcrack nucleation with the load level in Stage II, resulting in macrocrack formation prior to the onset of Stage III. In Stage ",
+        "bbox": [
+            514,
+            836,
+            937,
+            928
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "III, the b-value continues to decrease, hitting its lowest point at the end of Stage III or the start of Stage IV. This trend suggests that macrocracks developed at the end of Stage II persist in propagating under the load. At the end of Stage III or the beginning of Stage IV, the dominant macrocracks will extend further and eventually traverse the entire specimen. Finally, after the b-value declines to its minimum, it begins to increase again, followed by another decline after reaching a certain threshold. ",
+        "bbox": [
+            62,
+            66,
+            485,
+            157
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "Thus, it can be concluded that the inflection points, where the AE bvalue starts to increase from its minimum, may serves as a precursor to the complete fracture of asphalt concrete. The variations in the AE bvalue effectively describe the stage characteristics of the damage and cracking process in asphalt concrete. ",
+        "bbox": [
+            60,
+            158,
+            484,
+            223
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "4. Conclusions ",
+        "text_level": 1,
+        "bbox": [
+            62,
+            239,
+            159,
+            250
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "This study utilizes DIC and AE techniques to enhance understanding of damage mechanisms in asphalt concrete. The main conclusions are presented as follows: ",
+        "bbox": [
+            62,
+            264,
+            484,
+            302
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "(1) The work of fracture (Wf) of asphalt concretes in this study ranks as $\\mathrm { H V M A { > } S B S { > } N A }$ . The improvement in Wf is associated with enhanced deformation resistance and cracking resistance of asphalt concrete.   \n(2) Concretes with better cracking resistance tend to exhibit longer fully developed FPZ lengths and higher critical COD, indicating a significant correlation between the viscoelastic properties of asphalt materials and both the FPZ length and critical COD. DIC offers high spatial resolution and accuracy in measuring surface displacements and strains, providing valuable insights into the fracture processes of asphalt concrete.   \n(3) The fracture process of asphalt concretes can be categorized into four stages based on the evolution pattern of AE parameters: specimen deformation stage, microcrack initiation and concentration stage, macroscopic crack formation and stable expansion stage, and macroscopic crack unstable expansion stage. Notably, the observation of sparse areas in the AE parameter evolution process is a special phenomenon that merits further exploration. In summary, AE is instrumental in determining cracking mechanisms in asphalt concrete and correlates with mechanical damage analysis.   \n(4) While the DIC and AE technique show varied early fracture stage identification in asphalt concretes, consistency emerges after the appearance of macrocracks. For a reliable measure of asphalt concrete’s cracking resistance, a three-phase correlation between normalized CTOD and AE cumulative count is observed. An increased normalized cumulative AE count at $\\operatorname { F } _ { \\mathrm { m a x } }$ and a decreased normalized CTOD at the end of nonlinear phase are key to assessing the cracking resilience of asphalt concretes.   \n(5) During the initial loading stage, a rising trend was observed in the correlation dimension D for all three materials, but a significant reduction in the correlation dimension D was observed prior to reaching $\\operatorname { F } _ { \\mathrm { m a x } }$ . Following this phase, the correlation dimension D exhibited a recovery of varying extents, subsequently transitioning into a phase characterized by unpredictable or oscillatory fluctuations. According to fractal theory, a steep decrease to the minimum value of the correlation dimension signifies the formation of macrocracks in asphalt concrete. Improved cracking resistance results in the point of rapid decline being closer to $\\operatorname { F } _ { \\mathrm { m a x } } ,$ suggesting that enhancing cracking resistance in asphalt materials can postpone the emergence of macrocracks.   \n(6) The AE b-value fluctuates with crack progression and generally ",
+        "bbox": [
+            75,
+            301,
+            485,
+            873
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "reaches its minimum at the end of macroscopic crack stable expansion stage or the start of unstable expansion stage. The presence of the minimum inflection point in the AE b-value curve serves as a precursor to the final failure in asphalt concrete. AE bvalue fluctuations offer insights into the intensity and progression of crack propagation, with implications for predicting final failure. ",
+        "bbox": [
+            77,
+            858,
+            485,
+            936
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            552,
+            66,
+            937,
+            90
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "In conclusion, this study provides a comprehensive examination of fracture progression in asphalt concrete, leveraging DIC and AE methodologies to enrich our insights into material behavior. The findings underscore the utility of these techniques in advancing the field of asphalt engineering and pave the way for future advancements in material analysis and design. Future research will explore the adaptation of these techniques for field applications, addressing challenges such as traffic noise through the development of targeted noise filtering algorithms, integration with other field-applicable pavement monitoring technologies, and strategic sensor placement to minimize noise interference. ",
+        "bbox": [
+            514,
+            105,
+            937,
+            249
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "Funding ",
+        "text_level": 1,
+        "bbox": [
+            514,
+            267,
+            568,
+            279
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "This study was funded by the Natural Science Foundation of Zhejiang Province [grant numbers LQ20E080009, LY21E080011, LY23E080002]. ",
+        "bbox": [
+            512,
+            293,
+            936,
+            331
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "CRediT authorship contribution statement ",
+        "text_level": 1,
+        "bbox": [
+            515,
+            349,
+            786,
+            361
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "Yingci Ye: Writing – review & editing, Supervision, Formal analysis, Conceptualization. Qing Yang: Writing – original draft, Validation, Investigation, Formal analysis. Shanglin Xiao: Validation, Investigation, Data curation. Xin Qiu: Writing – review & editing, Software, Project administration, Investigation. Yixin Xiong: Writing – review & editing, Data curation. Wenxi Yang: Writing – review & editing, Data curation. ",
+        "bbox": [
+            514,
+            375,
+            937,
+            466
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "Declaration of Competing Interest ",
+        "text_level": 1,
+        "bbox": [
+            514,
+            494,
+            734,
+            506
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "The authors declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper. ",
+        "bbox": [
+            514,
+            520,
+            937,
+            558
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "Data availability ",
+        "text_level": 1,
+        "bbox": [
+            514,
+            573,
+            620,
+            585
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "The authors do not have permission to share data. ",
+        "bbox": [
+            536,
+            600,
+            831,
+            611
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "Acknowledgement ",
+        "text_level": 1,
+        "bbox": [
+            514,
+            630,
+            631,
+            641
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "This work was supported by the Natural Science Foundation of Zhejiang Province (LQ20E080009, LY21E080011, LY23E080002). The authors are great grateful for the assistance from Chuangliang Wang in conducting experiments for this paper. The authors would like to thank Wenyi Xu and Dingchuan Zhang for commendable opinions and revising the English style of the manuscript, which improved its legibility. ",
+        "bbox": [
+            514,
+            655,
+            937,
+            733
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "References ",
+        "text_level": 1,
+        "bbox": [
+            514,
+            751,
+            583,
+            762
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "[1] D. Yang, H.R. Karimi, M.R.M. Aliha, Comparison of testing method effects on cracking resistance of asphalt concrete mixtures, Appl. Sci. 11 (2021) 5094, https://doi.org/10.3390/app11115094.   \n[2] L. Shu, F. Ni, H. Du, Y. Han, An evaluation of asphalt mixture crack resistance and identification of influential factors, Coatings 13 (2023) 1382, https://doi.org/ 10.3390/coatings13081382.   \n[3] M.P. Wagoner, W.G. Buttlar, G.H. Paulino, P. Blankenship, Investigation of the fracture resistance of hot-mix asphalt concrete using a disk-shaped compact tension test, Transp. Res. Rec. J. Transp. Res. Board 1929 (2005) 183–192, https://doi.org/ 10.1177/0361198105192900122.   \n[4] Y. Meng, W. Kong, C. Gou, S. Deng, Y. Hu, J. Chen, L. Fan, A review on evaluation of crack resistance of asphalt mixture by semi-circular bending test, J. Road Eng. 3 (2023) 87–97, https://doi.org/10.1016/j.jreng.2022.07.003.   \n[5] N.A. Hassan, G.D. Airey, M.R. Hainin, Characterisation of micro-structural damage in asphalt mixtures using image analysis, Constr. Build. Mater. 54 (2014) 27–38, https://doi.org/10.1016/j.conbuildmat.2013.12.047. [6] H. Ajideh, H.U. Bahia, J. Earthman, Scanning laser detection system used to measure propagation of fatigue damage of asphalt mixes, Transp. Res. Rec. J. Transp. Res. Board 2296 (2012) 135–143, https://doi.org/10.3141/2296-14. [7] B. Birgisson, C. Soranakom, J.A.L. Napier, R. Roque, Microstructure and fracture in asphalt mixtures using a boundary element approach, J. Mater. Civ. Eng. 16 (2004) 116–121, https://doi.org/10.1061/(ASCE)0899-1561(2004)16:2(116). [8] M.A. Elseifi, L.N. Mohammad, H. Ying, S. Cooper, Modeling and evaluation of the cracking resistance of asphalt mixtures using the semi-circular bending test at intermediate temperatures, Road Mater. Pavement Des. 13 (2012) 124–139, https://doi.org/10.1080/14680629.2012.657035. [9] A. Chen, G.D. Airey, N. Thom, Y. Li, L. Wan, Simulation of micro-crack initiation and propagation under repeated load in asphalt concrete using zero-thickness cohesive elements, Constr. Build. Mater. 342 (2022) 127934, https://doi.org/ 10.1016/j.conbuildmat.2022.127934.   \n[10] Y. Liu, Z. You, Q. Dai, J. Mills-Beale, Review of advances in understanding impacts of mix composition characteristics on asphalt concrete (AC) mechanics, Int. J. Pavement Eng. 12 (2011) 385–405, https://doi.org/10.1080/ 10298436.2011.575142.   \n[11] A. Dansou, S. Mouhoubi, C. Chazallon, M. Bonnet, Modelling of the fatigue cracking resistance of grid reinforced asphalt concrete by coupling fast BEM and FEM, Road Mater. Pavement Des. 24 (2023) 631–652, https://doi.org/10.1080/ 14680629.2022.2029755.   \n[12] M.A. Elseifi, J. Baek, N. Dhakal, Review of modelling crack initiation and propagation in flexible pavements using the finite element method, Int. J. Pavement Eng. 19 (2018) 251–263, https://doi.org/10.1080/ 10298436.2017.1345555.   \n[13] C. Xing, T. Tan, L. Zhang, Y. Tan, Experimental study on damage evolution of asphalt mixture using digital image correlation, in: S. Erkens, X. Liu, K. Anupam, Y. Tan (Eds.), Functional Pavement Design, 1st ed., CRC Press, 2016, pp. 1237–1246, https://doi.org/10.1201/9781315643274-137.   \n[14] F. Hild, S. Roux, Digital image correlation: from displacement measurement to identification of elastic properties – a review, Strain 42 (2005) 69–80, https://doi. org/10.1111/J.1475-1305.2006.00258.X.   \n[15] T. Fayyad, J. Lees, Application of digital image correlation to reinforced concrete fracture, Procedia Mater. Sci. 3 (2014) 1585–1590, https://doi.org/10.1016/J. MSPRO.2014.06.256.   \n[16] Y. Seo, Y. Kim, M.W. Witczak, R. Bonaquist, Application of digital image correlation method to mechanical testing of asphalt-aggregate mixtures, Transp. Res. Rec. J. Transp. Res. Board 1789 (2002) 162–172, https://doi.org/10.3141/ 1789-18.   \n[17] C. Zhang, D. Mo, J. Guo, W. Wang, S. Long, H. Zhu, D. Chen, G. Ge, Y. Tang, A method of crack detection based on digital image correlation for simulated cracked tooth, BMC Oral Health 21 (2021) 539, https://doi.org/10.1186/s12903- 021-01897-2.   \n[18] X. Zhu, F. Ye, Y. Cai, B. Birgisson, Y. Yu, Digital image correlation-based investigation of self-healing properties of ferrite-filled open-graded friction course asphalt mixture, Constr. Build. Mater. 234 (2020) 117378, https://doi.org/ 10.1016/j.conbuildmat.2019.117378.   \n[19] B. Doll, H. Ozer, J. Rivera-Perez, I.L. Al-Qadi, J. Lambros, Damage zone development in heterogeneous asphalt concrete, Eng. Fract. Mech. 182 (2017) 356–371, https://doi.org/10.1016/j.engfracmech.2017.06.002.   \n[20] S. Bhowmik, S. Ray, An experimental approach for characterization of fracture process zone in concrete, Eng. Fract. Mech. 211 (2019) 401–419, https://doi.org/ 10.1016/j.engfracmech.2019.02.026.   \n[21] S. Gholizadeh, A review of the application of acoustic emission technique in engineering, Struct. Eng. Mech. 54 (2015) 1075–1095, https://doi.org/10.12989/ SEM.2015.54.6.1075.   \n[22] A. Behnia, H.K. Chai, T. Shiotani, Advanced structural health monitoring of concrete structures with the aid of acoustic emission, Constr. Build. Mater. 65 (2014) 282–302, https://doi.org/10.1016/j.conbuildmat.2014.04.103.   \n[23] B. Doll, H. Ozer, J. Rivera-Perez, I.L. Al-Qadi, J. Lambros, Fracture process zone development in heterogeneous asphalt concrete, Eng. Fract. Mech. 182 (2017) 356–371, https://doi.org/10.1016/j.engfracmech.2017.06.002.   \n[24] J. Qiu, Q. Yang, X. Qiu, S.L. Xiao, L.Y. He, G.H. Hu, Use of acoustic emission for exploring characteristics and behaviors of mixed-mode fracture process of asphalt mixtures, Mater. Struct. 55 (2022) 199, https://doi.org/10.1617/s11527-022- 02030-7.   \n[25] X. Qiu, J.X. Xu, W.Y. Xu, Q. Yang, F. Wang, J. Yuan, Diagnosis of damage evolution process for asphalt mixtures using pattern recognition with acoustic emission signals, Constr. Build. Mater. 280 (2021) 122536, https://doi.org/10.1016/j. conbuildmat.2021.122536.   \n[26] J. Geng, Q. Sun, Y. Zhang, L. Cao, W. Zhang, Studying the dynamic damage failure of concrete based on acoustic emission, Constr. Build. Mater. 149 (2017) 9–16, https://doi.org/10.1016/j.conbuildmat.2017.05.054.   \n[27] M. Ohtsu, H. Watanabe, Quantitative damage estimation of concrete by acoustic emission, Constr. Build. Mater. 15 (2001) 217–224, https://doi.org/10.1016/ S0950-0618(00)00071-4.   \n[28] IngS. Colombo, I.G. Main, M.C. Forde, Assessing damage of reinforced concrete beam using “b -value” analysis of acoustic emission signals, J. Mater. Civ. Eng. 15 -286btt   \n[29] R.V. Sagar, B.K.R. Prasad, S.S. Kumar, An experimental study on cracking evolution in concrete and cement mortar by the b-value analysis of acoustic emission technique, Cem. Concr. Res. 42 (2012) 1094–1104, https://doi.org/10.1016/j. cemconres.2012.05.003.   \n[30] X. Qiu, J.X. Xu, S.L. Xiao, Q. Yang, Acoustic emission parameters and waveforms characteristics of fracture failure process of asphalt mixtures, Constr. Build. Mater. 215 (2019) 135–147, https://doi.org/10.1016/j.conbuildmat.2019.04.150.   \n[31] M. Ali, E. Wang, Z. Li, N.M. Khan, M.M.S. Sabri, B. Ullah, Investigation of the acoustic emission and fractal characteristics of coal with varying water contents during uniaxial compression failure, Sci. Rep. 13 (2023) 2238, https://doi.org/ 10.1038/s41598-023-29473-4.   \n[32] C. Chen, X. Chen, Y. Ning, Identification of fracture damage characteristics in ultrahigh performance cement-based composite using digital image correlation and acoustic emission techniques, Compos. Struct. 291 (2022) 115612, https://doi. org/10.1016/j.compstruct.2022.115612.   \n[33] S. Li, X. Fan, X. Chen, S. Liu, Y. Guo, Development of fracture process zone in fullgraded dam concrete under three-point bending by DIC and acoustic emission, Eng. Fract. Mech. 230 (2020) 106972, https://doi.org/10.1016/j. engfracmech.2020.106972.   \n[34] X. Fan, S. Li, X. Chen, S. Liu, Y. Guo, Fracture behaviour analysis of the full-graded concrete based on digital image correlation and acoustic emission technique, Fatigue Fract. Eng. Mater. Struct. 43 (2020) 1274–1289, https://doi.org/10.1111/ ffe.13222.   \n[35] X. Li, X. Chen, A.P. Jivkov, J. Hu, Investigation of tensile fracture of rubberized self-compacting concrete by acoustic emission and digital image correlation, Struct. Control Health Monit. 28 (2021), https://doi.org/10.1002/stc.2744.   \n[36] M. Guo, S.Y. Alam, A.Z. Bendimerad, F. Grondin, E. Rozi\\`ere, A. Loukili, Fracture process zone characteristics and identification of the micro-fracture phases in recycled concrete, Eng. Fract. Mech. 181 (2017) 101–115, https://doi.org/ 10.1016/j.engfracmech.2017.07.004.   \n[37] F. Xue, Z. Lin, T. Wang, Experimental study on cracking process and fracture properties of granite under mode I loading by acoustic emission and digital image correlation, Fatigue Fract. Eng. Mater. Struct. 46 (2023) 1921–1936, https://doi. org/10.1111/ffe.13973.   \n[38] M.A. James, J.C. Newman, Jr, W.M. Johnston Jr, Three-dimensional analyses of crack-tip opening angles and d5-resistance curves for 2024-T351 aluminum alloy, ASTM STP 1406 (2002) 279–297.   \n[39] W. Brocks, H. Yuan, Numerical studies on stable crack growth, Defect Assess. Compon. Fundam. Appl. 9 (1991) 19–33.   \n[40] A.U. de Koning, A Contribution to the Analysis of Slow Stable Crack Growth, NLR MP 75035 U, 1976, 〈https://repository.tudelft.nl/islandora/object/uuid%3A3 207a83c-0f95-48d5-a121-af861e356040〉 (Accessed September 28, 2023).   \n[41] J.C. Newman, M.A. James, U. Zerbst, A review of the CTOA/CTOD fracture criterion, Eng. Fract. Mech. 70 (2003) 371–385, https://doi.org/10.1016/S0013- 7944(02)00125-X.   \n[42] Z. Wu, H. Rong, J. Zheng, F. Xu, W. Dong, An experimental investigation on the FPZ properties in concrete using digital image correlation technique, Eng. Fract. Mech. 78 (2011) 2978–2990, https://doi.org/10.1016/j. engfracmech.2011.08.016.   \n[43] S. Kacimi, S. Laurens, The correlation dimension: a robust chaotic feature for classifying acoustic emission signals generated in construction materials, J. Appl. Phys. 106 (2009) 024909, https://doi.org/10.1063/1.3169601.   \n[44] C. Xia, D. Chen, W. He, H. Liu, X. Liu, Research on maximum likelihood b value and confidence limits estimation in doubly truncated apparent frequency–amplitude distribution in rock acoustic emission tests, Mathematics 10 (2022) 2409, https:// doi.org/10.3390/math10142409.   \n[45] M. Malek, M. Keymanesh, Impact of thickness, void content, temperature and loading rate on tensile fracture toughness and work of fracture of asphalt mixturesan experimental study using the SCB test, Eng. Solid Mech. 11 (2023) 163–174.   \n[46] X. Qiu, Jingxian Xu, X. Wenyi, Shanglin Xiao, W. Feng, Y. Jie, Characterization of fatigue damage mechanism of asphalt mixtures with acoustic emission, Constr. Build. Mater. 240 (2020) 117961, https://doi.org/10.1016/j. conbuildmat.2019.117961.   \n[47] H. Zhang, D. Fu, H. Song, Y. Kang, G. Huang, G. Qi, J. Li, Damage and fracture investigation of three-point bending notched sandstone beams by DIC and AE techniques, Rock Mech. Rock Eng. 48 (2015) 1297–1303, https://doi.org/ 10.1007/s00603-014-0635-4.   \n[48] A. Keshtgar, M. Modarres, Detecting crack initiation based on acoustic emission, Chem. Eng. Trans. 33 (2013) 547–552, https://doi.org/10.3303/CET1333092.   \n[49] G. Zhang, Y. Xing, L. Wang, Comprehensive sandstone fracturing characterization: integration of fiber Bragg grating, digital imaging correlation and acoustic emission measurements, Eng. Geol. 246 (2018) 45–56, https://doi.org/10.1016/j. enggeo.2018.09.016.   \n[50] D. Ren, B. Liu, J. Sun, S. Yu, Z. Lin, B. Liu, Interevent acoustic emission character of three-point-bending tests on concrete beams by the nearest neighbor distance, Constr. Build. Mater. 224 (2019) 359–371, https://doi.org/10.1016/j. conbuildmat.2019.07.070. ",
+        "bbox": [
+            519,
+            775,
+            936,
+            936
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            60,
+            55,
+            485,
+            865
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            510,
+            66,
+            936,
+            837
+        ],
+        "page_idx": 12
+    }
+]
