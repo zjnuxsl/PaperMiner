@@ -1,0 +1,76 @@
+You are an expert in analyzing research paper structures. Your task is to extract specific sections from a research paper provided in Markdown format.
+
+## Task
+Analyze the following research paper and extract these sections:
+1. **Abstract** (or Summary, Executive Summary)
+2. **Introduction** (or Background, Motivation, Overview, Related Work, Literature Review, Background and Related Work)
+3. **Methods** (or Methodology, Materials and Methods, Experimental, Experimental Setup, Simulation, Simulation Setup, Model, Modeling, Implementation, System Design, Architecture, Algorithm, Approach, Proposed Method, Technical Approach)
+4. **Results** (or Findings, Experimental Results, Simulation Results, Evaluation, Performance Analysis, Case Study, Experiments)
+5. **Discussion** (or Analysis, Performance Evaluation, Experimental Evaluation)
+6. **Conclusion** (or Conclusions, Concluding Remarks, Summary and Conclusions, Future Work)
+
+## CRITICAL REQUIREMENTS - DO NOT MODIFY THE TEXT
+- **COPY THE ORIGINAL TEXT EXACTLY AS IT APPEARS** - Do NOT rewrite, summarize, or paraphrase
+- **DO NOT translate** - Keep the original language (English, Chinese, or mixed)
+- **DO NOT fix grammar or spelling** - Copy errors as they appear
+- **DO NOT reorganize or restructure** - Keep the original order and structure
+- **DO NOT add explanations or comments** - Only extract the original content
+
+## Extraction Rules
+- If "Results" and "Discussion" are separate sections, extract them separately
+- If they are combined (e.g., "Results and Discussion"), extract as one section
+- **Preserve ALL formatting EXACTLY**, including:
+  - Markdown headers (#, ##, ###)
+  - LaTeX formulas ($...$, $$...$$)
+  - Image references (![](path))
+  - Tables (complete table syntax)
+  - Lists and bullet points
+  - Line breaks and spacing
+  - Bold, italic, and other formatting
+- If a section is not found, omit it from the output (do not include empty sections)
+- Section titles may vary significantly across different fields:
+  - **Introduction**: may be titled "Background", "Motivation", "Overview", "Related Work", etc.
+  - **Methods**: may be titled "Methodology", "Implementation", "System Design", "Algorithm", "Simulation Setup", "Experimental Setup", "Proposed Method", etc.
+  - **Results**: may be titled "Evaluation", "Performance Analysis", "Experimental Results", "Simulation Results", "Case Study", etc.
+  - **Discussion**: may be titled "Analysis", "Performance Evaluation", etc.
+  - **Conclusion**: may be titled "Summary", "Concluding Remarks", "Future Work", etc.
+- The paper may be in English, Chinese, or mixed languages
+
+## What to Extract
+- Extract the **complete section** from the section heading to the next major section heading
+- Include ALL subsections (##, ###, ####, etc.)
+- Include ALL content: text, formulas, images, tables, lists, etc.
+- Do NOT skip any paragraphs or content within the section
+
+## Output Format
+Return a JSON object with section names as keys and **EXACT ORIGINAL CONTENT** as values.
+
+Example:
+```json
+{
+  "Abstract": "EXACT original text from the Abstract section, including ALL formatting...",
+  "Introduction": "EXACT original text from the Introduction section, including ALL formatting...",
+  "Methods": "EXACT original text from the Methods section, including ALL formatting...",
+  "Results": "EXACT original text from the Results section, including ALL formatting...",
+  "Discussion": "EXACT original text from the Discussion section, including ALL formatting...",
+  "Conclusion": "EXACT original text from the Conclusion section, including ALL formatting..."
+}
+```
+
+## Special Cases
+- If "Results and Discussion" are combined, use key "Results & Discussion"
+- If a section has subsections, include all subsections in the content
+- If the paper structure is unusual (e.g., review paper, conference abstract), do your best to identify relevant sections
+
+## Paper Content (Markdown)
+{MARKDOWN_CONTENT}
+
+## Your Response
+**IMPORTANT**:
+1. Copy the EXACT original text from each section - DO NOT rewrite, summarize, or modify
+2. Preserve ALL formatting (Markdown, LaTeX, images, tables, etc.)
+3. **CRITICAL**: When copying text with backslashes (e.g., LaTeX formulas like `\alpha`, `\beta`), you MUST escape them as `\\alpha`, `\\beta` in the JSON string to ensure valid JSON
+4. Return ONLY the JSON object, no additional explanation
+5. If you cannot find a section, omit it from the JSON (do not include empty sections)
+6. Make sure the JSON is valid - test it mentally before returning
+

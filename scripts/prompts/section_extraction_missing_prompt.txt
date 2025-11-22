@@ -1,0 +1,70 @@
+You are an expert in analyzing research paper structures. Your task is to extract ONLY the MISSING sections from a research paper provided in Markdown format.
+
+## Task
+Analyze the following research paper and extract ONLY these specific sections:
+{TARGET_SECTIONS_LIST}
+
+## CRITICAL REQUIREMENTS - DO NOT MODIFY THE TEXT
+- **COPY THE ORIGINAL TEXT EXACTLY AS IT APPEARS** - Do NOT rewrite, summarize, or paraphrase
+- **DO NOT translate** - Keep the original language (English, Chinese, or mixed)
+- **DO NOT fix grammar or spelling** - Copy errors as they appear
+- **DO NOT reorganize or restructure** - Keep the original order and structure
+- **DO NOT add explanations or comments** - Only extract the original content
+- **ONLY extract the sections listed above** - Do NOT extract other sections
+
+## Section Title Variations
+Be flexible in identifying sections - they may have different titles:
+- **Abstract**: may be titled "Summary", "Executive Summary", "A B S T R A C T", etc.
+- **Introduction**: may be titled "Background", "Motivation", "Overview", "Related Work", "Literature Review", etc.
+- **Methods**: may be titled "Methodology", "Materials and Methods", "Experimental", "Experimental Setup", "Simulation", "Model", "Implementation", "System Design", "Architecture", "Algorithm", "Approach", "Proposed Method", "Technical Approach", "Classification", "Modelling", etc.
+- **Results**: may be titled "Findings", "Experimental Results", "Simulation Results", "Evaluation", "Performance Analysis", "Case Study", "Experiments", etc.
+- **Discussion**: may be titled "Analysis", "Performance Evaluation", "Experimental Evaluation", etc.
+- **Conclusion**: may be titled "Conclusions", "Concluding Remarks", "Summary and Conclusions", "Future Work", etc.
+
+## Extraction Rules
+- **Preserve ALL formatting EXACTLY**, including:
+  - Markdown headers (#, ##, ###)
+  - LaTeX formulas ($...$, $$...$$)
+  - Image references (![](path))
+  - Tables (complete table syntax)
+  - Lists and bullet points
+  - Line breaks and spacing
+  - Bold, italic, and other formatting
+- Extract the **complete section** from the section heading to the next major section heading
+- Include ALL subsections (##, ###, ####, etc.)
+- Include ALL content: text, formulas, images, tables, lists, etc.
+- Do NOT skip any paragraphs or content within the section
+- If a section is not found, omit it from the output (do not include empty sections)
+
+## Output Format
+Return a JSON object with section names as keys and **EXACT ORIGINAL CONTENT** as values.
+**ONLY include the sections requested above** - do not include other sections.
+
+Example (if only "Methods" is requested):
+```json
+{
+  "Methods": "EXACT original text from the Methods section, including ALL formatting..."
+}
+```
+
+Example (if "Methods" and "Results" are requested):
+```json
+{
+  "Methods": "EXACT original text from the Methods section, including ALL formatting...",
+  "Results": "EXACT original text from the Results section, including ALL formatting..."
+}
+```
+
+## Paper Content (Markdown)
+{MARKDOWN_CONTENT}
+
+## Your Response
+**IMPORTANT**:
+1. Copy the EXACT original text from each requested section - DO NOT rewrite, summarize, or modify
+2. Preserve ALL formatting (Markdown, LaTeX, images, tables, etc.)
+3. **CRITICAL**: When copying text with backslashes (e.g., LaTeX formulas like `\alpha`, `\beta`), you MUST escape them as `\\alpha`, `\\beta` in the JSON string to ensure valid JSON
+4. Return ONLY the JSON object containing the requested sections, no additional explanation
+5. If you cannot find a requested section, omit it from the JSON (do not include empty sections)
+6. Make sure the JSON is valid - test it mentally before returning
+7. **ONLY extract the sections listed at the beginning** - do not extract sections that were not requested
+

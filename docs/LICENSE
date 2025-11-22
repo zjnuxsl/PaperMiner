@@ -1,0 +1,55 @@
+MIT License
+
+Copyright (c) 2025 MinerU PDF Processing Tool
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+---
+
+## 第三方依赖许可证
+
+本项目基于以下开源项目构建：
+
+### MinerU
+- 项目地址: https://github.com/opendatalab/mineru
+- 许可证: Apache License 2.0
+- 版权所有: OpenDataLab
+
+### Python-docx
+- 项目地址: https://github.com/python-openxml/python-docx
+- 许可证: MIT License
+
+### PyTorch
+- 项目地址: https://github.com/pytorch/pytorch
+- 许可证: BSD 3-Clause License
+
+### NumPy
+- 项目地址: https://github.com/numpy/numpy
+- 许可证: BSD 3-Clause License
+
+### Tkinter
+- 包含在 Python 标准库中
+- 许可证: Python Software Foundation License
+
+## 免责声明
+
+1. 本软件仅供学习和研究使用
+2. 使用本软件处理的文档内容，用户需自行承担版权责任
+3. 本软件不对处理结果的准确性做任何保证
+4. 使用本软件产生的任何后果，开发者不承担责任
